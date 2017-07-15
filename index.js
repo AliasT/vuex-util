@@ -33,8 +33,8 @@ export function factoryObject(field) {
  */
 export function asyncAction (requestUrlTemplate, COMMIT_TYPE, _method='get',) {
   let method = get
-  if (method == 'put') method = put
-  else if (method == 'post') method = post
+  if (_method == 'put') method = put
+  else if (_method == 'post') method = post
   
   /**
    * vuex async action builder
