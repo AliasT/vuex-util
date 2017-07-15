@@ -37,7 +37,7 @@ export function asyncAction (requestUrlTemplate, COMMIT_TYPE, _method='get',) {
   else if (method == 'post') method = post
   
   /**
-   * redux async action builder
+   * vuex async action builder
    * 😘😘 🎉🎉 😏😏
    */
   return async function ({ commit, rootState, state }, payload) {
