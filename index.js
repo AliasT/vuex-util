@@ -29,7 +29,7 @@ export function factoryObject(field) {
  * @param {string} method 请求类型
  *
  *
- * usage: [types.GET_USER_POSTS_SUCESS]: asyncAction('/api/user/:userId/posts/:postId/', types.GET_USER_POSTS_SUCESS)
+ * usage: [types.GET_USER_POSTS]: asyncAction('/api/user/:userId/posts/:postId/', types.GET_USER_POSTS_SUCESS)
  */
 export function asyncAction (requestUrlTemplate, COMMIT_TYPE, _method='get',) {
   let method = get
